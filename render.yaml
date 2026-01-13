@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: smart-expert-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
